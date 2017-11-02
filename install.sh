@@ -1,3 +1,3 @@
 python -m virtualenv tmp
-tmp/bin/pip install -e example-pkg
+tmp/bin/pip install -r requirements.txt
 tmp/bin/python -m example_pkg
